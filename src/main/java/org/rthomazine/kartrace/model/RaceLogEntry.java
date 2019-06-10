@@ -10,7 +10,8 @@ import java.time.LocalTime;
 @Accessors(chain = true)
 public class RaceLogEntry {
     private LocalTime time;
-    private String racer;
+    private String driverCode;
+    private String driver;
     private Integer turn;
     private Duration turnDuration;
     private Float speedAverage;
